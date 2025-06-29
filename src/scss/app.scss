@@ -1,0 +1,21 @@
+
+/*
+    Importación de archivos en sass
+
+     versión anterior
+     @import 'header/header'
+
+     versión nueva 
+     @use 'header/header';
+    
+     estos importan y utilizan los archivos importados
+
+     @forward solo es para incluir archivos en otro archivo que se va a importar 
+*/
+
+@use 'base';
+@use 'header';
+@use 'inicio';
+@use 'footer';
+@use 'internas';
+@use 'utilidades';
